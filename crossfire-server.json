@@ -4,7 +4,7 @@
   "artifact": "https://github.com/ketek/iocage-plugin-crossfire-server",
   "properties": {
       "nat":"1",
-      "nat_forwards": "tcp(4200:4200)"
+      "nat_forwards": "tcp(13327:13327)"
       },
   "pkgs": [
         "bash",
