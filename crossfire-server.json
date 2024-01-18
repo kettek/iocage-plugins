@@ -1,0 +1,23 @@
+{
+  "name": "crossfire",
+  "release": "13.2-RELEASE",
+  "artifact": "https://github.com/ketek/iocage-plugin-crossfire-server",
+  "properties": {
+      "nat":"1",
+      "nat_forwards": "tcp(4200:4200)"
+      },
+  "pkgs": [
+        "bash",
+        "lang/python3"
+      ],
+  "packagesite": "http://pkg.FreeBSD.org/${ABI}/quarterly",
+  "fingerprints": {
+          "plugin-default": [
+                  {
+                  "function": "sha256",
+                  "fingerprint": "b0170035af3acc5f3f3ae1859dc717101b4e6c1d0a794ad554928ca0cbb2f438"
+              }
+            ]
+    },
+    "official": false
+}
